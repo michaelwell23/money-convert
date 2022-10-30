@@ -1,0 +1,23 @@
+<%- include('header') %>
+<div class="screen-body-item">
+    <form method="GET" action="/cotacao">
+      <div class="app-form cotacao"> 
+        <div class="app-form-group ">
+          <p class="app-form-control">O resultado da cotação é de</p>
+        </div>
+        <% if(error){ %> 
+          <%= error %> 
+            <% } else { %>
+          <div class="app-form-group app-form-control">
+            <span><%= conversao %> </span>
+          </div> -->
+          <% } %>
+        </div>
+        <div class="app-form-group">
+          </div>
+        </div>
+    </form>
+  </div>
+</div>
+
+<%- include('footer') %>
